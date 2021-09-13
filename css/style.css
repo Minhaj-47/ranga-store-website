@@ -14,14 +14,15 @@ body {
   justify-content: center;
 }
 .single-product {
-  padding: 10px;
-  margin: 10px;
+  padding: 18px;
+  margin: 18px;
   transition: 0.6s;
+  background-color: #909e9029;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 3px solid green;
+  border: 2px solid green;
 }
 .product-image {
   width: 150px;

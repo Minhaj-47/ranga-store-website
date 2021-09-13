@@ -17,7 +17,7 @@ const showProducts = (products) => {
       <div>
     <img class="product-image" src=${image}></img>
       </div>
-      <h3>${product.title}</h3>
+      <h4 ">${product.title}</h4>
       <p>Category: ${product.category}</p>
       <h2>Price: $${product.price}</h2>
       <h5>Total Ratings: ${product.rating.count}</h5>
@@ -26,16 +26,7 @@ const showProducts = (products) => {
       <button id="details-btn" class="btn btn-success">Details</button></div>
       `;
     document.getElementById("all-products").appendChild(div);
-    // getRatings();
   }
-};
-
-// getting the rating 
-const getRatings=() =>{
-  // console.log(rating);
-  if(product.rating.rate>3)
-  {document.getElementById('${product.id}'.innerText =`
-  `)} 
 };
 // add to cart function 
 let count = 0;
